@@ -1,0 +1,10 @@
+Client ID fd36055cd7f8457cbc2e621683f0c86a
+Client Secret 01edc70fffbc43149002be928f1a93a4
+
+
+
+
+
+
+
+soundcloud api key: bda4ada8694db06efcac9cf97b872b3e

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+
+body {
+background: #4568DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.banner {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.search {
+  position: relative;
+  width: 100%;
+}
+
+.search:after {
+  content: '\E8B6';
+  display: block;
+  font-family: Material Icons;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  padding-left: 20px;
+
+}
+
+h1 {
+}
+
+.search {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  position: relative;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  width: 100%;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+
+i.material-icons {
+  font-size:70px;
+  margin-left: -20px;
+
+}
+
+button {
+  margin: 0 auto;
+}
+
+.material-icons {
+  font-size: 40px;
+}
+
+.datacontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  align-content: flex-end;
+}
+
+.playlist {
+  display: flex;
+  justify-content: space-around;
+  border: 5px solid black;
+  margin: 20px;
+  max-width: auto;
+  max-height: auto;
+
+}
