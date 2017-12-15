@@ -1,10 +1,12 @@
 <div class="datacontainer">
   <div class="playlist"  ng-repeat="playlist in $ctrl.getPlaylist">
     <ul >
-      <li >name: {{ playlist.name }} </li>
-      <li> images: {{ playlist.images[0] }} </li>
+      <li > {{ playlist.name }} </li>
+      <li> <img src="{{ playlist.images[0].url }}" /> </li>
       <!-- <li> <img ng-src="playlist.images[0].url" /></li> -->
-      <li> tracks: {{ playlist.tracks.total }} </li>
+      <li> Tracks: {{ playlist.tracks.total }} </li>
+      <a href="{{ playlist.external_urls.spotify }}" target="_blank"><button type="button" name="button">Play in Spotify</button></a>
+
     </ul>
   </div>
   <!-- <div class="playlist">
